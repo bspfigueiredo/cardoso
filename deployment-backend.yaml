@@ -25,7 +25,7 @@ spec:
           ports:
             - containerPort: 80
           volumeMounts:
-          - name: secretss
+          - name: secrets
             mountPath: "/home/bsimple/secrets"
             readOnly: true
       volumes:
