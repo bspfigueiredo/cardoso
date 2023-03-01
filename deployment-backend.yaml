@@ -24,10 +24,10 @@ spec:
           name: backend
           ports:
             - containerPort: 80
-          volumeMounts:
-          - name: secrets
-            mountPath: "/home/bsimple/secrets"
-            readOnly: true
+          #volumeMounts:
+          #- name: secrets
+          #  mountPath: "/home/bsimple/secrets"
+          #  readOnly: true
       volumes:
         - name: secrets
           secret:
